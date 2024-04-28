@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+
+}
+
+.App{
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(29, 29, 29);
+    margin: auto;
+    color: white;
+}
+
+input,
+button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+button {
+    border: 1px solid gray;
+    background: rgb(80, 80, 80);
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+    background: hsl(34, 100%, 50%);
+    color: white;
+}
+
+form{
+    font-size: 25px;
+}
